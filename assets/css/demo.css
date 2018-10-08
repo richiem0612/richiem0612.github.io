@@ -1,41 +1,4 @@
-.tim-row{
-    margin-bottom: 20px;
-}
 
-.tim-white-buttons {
-    background-color: #777777;
-}
-.tim-title{
-    margin-top: 30px;
-    margin-bottom: 25px;
-    min-height: 32px;
-}
-.tim-title.text-center{
-    margin-bottom: 50px;
-}
-.tim-typo{
-    padding-left: 25%;
-    margin-bottom: 40px;
-    position: relative;
-}
-.tim-typo .tim-note{
-    bottom: 10px;
-    color: #c0c1c2;
-    display: block;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 13px;
-    left: 0;
-    margin-left: 20px;
-    position: absolute;
-    width: 260px;
-}
-.tim-row{
-    padding-top: 50px;
-}
-.tim-row h3{
-    margin-top: 0;
-}
 .switch{
     margin-right: 20px;
 }
@@ -328,9 +291,7 @@
     -o-transition: all .2s;
     transition: all .2s;
 }
-.presentation{
 
-}
 .presentation .section{
     padding: 100px 0;
 }
@@ -656,9 +617,7 @@
     overflow: hidden;
     box-shadow: 0 -3px 8px rgba(0,0,0,0);
 }
-.presentation .section-images .card-image .image{
-/*     border-radius: 6px; */
-}
+
 @media (max-width: 1200px){
     .presentation .section-images .image img{
         width: 100%;
@@ -946,50 +905,3 @@
     margin-top: 14px;
 }
 
-/* for components and tutorial page */
-pre.prettyprint{
-    background-color: #FFFCF5;
-    border: 0px;
-    margin-bottom: 0;
-    margin-top: 20px;
-    padding: 20px;
-    text-align: left;
-}
-.atv, .str{
-    color: #75c3b6;
-}
-.tag, .pln, .kwd{
-    color: #7A9E9F;
-}
-.atn{
-    color: #68B3C8;
-}
-.pln{
-    color: #333;
-}
-.com{
-    color: #999;
-}
-.space-top{
-    margin-top: 50px;
-}
-.area-line{
-    border: 1px solid #999;
-    border-left: 0;
-    border-right: 0;
-    color: #666;
-    display: block;
-    margin-top: 20px;
-    padding: 8px 0;
-    text-align: center;
-}
-.area-line a{
-    color: #666;
-}
-.container-fluid{
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.example-pages{
-    margin-top: 50px;
-}
