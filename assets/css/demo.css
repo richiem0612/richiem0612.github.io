@@ -110,6 +110,7 @@
     color: #ddd !important;
 }
 .footer-demo{
+    background-color: rgba(35, 38, 53, 0.904);
     background-attachment: fixed;
     position: relative;
     line-height: 20px;
@@ -132,7 +133,7 @@
     padding: 0;
 }
 .footer-demo nav > ul a:not(.btn) {
-  color: #777777;
+  color: #ffffff;
   display: block;
   margin-bottom: 3px;
 }
@@ -140,7 +141,7 @@
   color: #E3E3E3;
 }
 .footer-demo .copyright {
-  color: #777777;
+  color: #ffffff;
   padding: 10px 15px;
   font-size: 14px;
   margin: 15px 3px;

@@ -43,7 +43,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.5em;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 1.2em;
 }
 
@@ -1444,7 +1444,7 @@ textarea.form-control {
 }
 
 .section-nude {
-  background-color: #FFFCF5;
+  background-color: rgb(255, 255, 255);
 }
 
 .section-light-brown {
@@ -1651,6 +1651,7 @@ textarea.form-control {
 }
 
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand {
+  font-weight: normal;
   color: #FFFFFF;
   opacity: 0.9;
   filter: alpha(opacity=90);
@@ -2639,7 +2640,7 @@ textarea.form-control {
     right: 0;
     z-index: 1032;
     visibility: visible;
-    background-color: #999;
+    background-color: rgb(255, 0, 0);
     overflow-y: visible;
     border-top: none;
     text-align: left;
@@ -2685,7 +2686,7 @@ textarea.form-control {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #FFFCF5;
+    background-color: rgb(255, 179, 0);
     background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
     display: block;
     content: "";
